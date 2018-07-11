@@ -17,6 +17,12 @@ SHOCK / A Small-Arms Tactical Skirmish System
 
 ---
 
+## The Game
+
+### Turns and Phases
+
+Each game turn is the equivalent of around two seconds of real life action. This turn is split into four half second phases.
+
 ## Setup and Initial Movements
 
 ## The Soldier
@@ -48,7 +54,11 @@ Troops are generally rated by their overall quality and training level. This is 
 | ELITE       | 3   | xx | xx | xx | x  |
 | RAINBOW     | 4   | xx | xx | xx | xx |
 
+The modifier is a generic modifier that applies to various actions throughout the game aside stat required actions, such as morale and generic troop creation.
+
 Generic troops may be rated(TAP) according to their quality, with Regular being 5-5-5. Modifiers applying, an untrained generic would be 2-2-2 and a rainbow generic 9-9-9.
+
+The P1-P4 columns are counters for how many phase actions a unit may take in each phase of a turn. This ranges anywhere from 1 action per turn, up to 8, with up to 1-2 actions each phase if qualified.
 
 ### Descriptions and Examples
 
@@ -81,6 +91,10 @@ Max pool is equivalent to unit skill level.
 ### Movement
 
 ### Hold / Action
+
+#### Grenade Activation
+
+Grenades may be used by priming the nade in one phase action, and throwing the nade in another(or don't). Grenades activate after a second end of turn. So if a nade is primed in Turn 1, turn one will end and it will flip to indicate it will detonate at the end of next turn. At the end of Turn 2, it would detonate.
 
 ## Terrain / Cover
 
