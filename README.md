@@ -21,7 +21,23 @@ SHOCK / A Small-Arms Tactical Skirmish System
 
 ### Turns and Phases
 
-Each game turn is the equivalent of around two seconds of real life action. This turn is split into four half second phases.
+Each game turn is the equivalent of around two seconds of real life action. This turn is split into 3 distinct phases.
+
+#### 1. Morale and Snap Shots
+
+Morale recovery attempts are made first. After that, figures who have LOS to a known enemy may fire a snap-shot immediately and forgo movement and actions in the remaining phases.
+
+Snap Shots have a penalty of -3(?) but may be done before the initiative phase and all happen simultaneously. If the person is in cover it will count as blind fire for -5(?).
+
+#### 2. Movement and Action
+
+Of the units remaining, who are still able to act, a chit pull activation system is implemented. A unit has three action points and three movement points per turn.
+
+#### 3. Medical and Explosives
+
+Once all units have finished their actions, medical checks are made for all units who require them. After that is complete, all explosives set to detonate, will detonate.
+
+Now the turn is complete, and onward to do it all over again mission end as deemed neccessary by the scenario.
 
 ## Setup and Initial Movements
 
@@ -43,22 +59,20 @@ Each stat is on a scale of 1-10, with 10 being the best.
 
 Troops are generally rated by their overall quality and training level. This is broken down into eight different levels with *SHOCK*.
 
-| QUALITY     | MOD | P1 | P2 | P3 | P4 |
-| ----------- | --- | -- | -- | -- | -- |
-| UNTRAINED   | -3  | x  |    |    |    |
-| CONSCRIPT   | -2  | x  |    | x  |    |
-| GREEN       | -1  | x  | x  | x  |    |
-| REGULAR     | 0   | x  | x  | x  | x  |
-| EXPERIENCED | 1   | xx | x  | x  | x  |
-| VETERAN     | 2   | xx | x  | xx | x  |
-| ELITE       | 3   | xx | xx | xx | x  |
-| RAINBOW     | 4   | xx | xx | xx | xx |
+| QUALITY     | MOD |
+| ----------- | --- |
+| UNTRAINED   | -3  |
+| CONSCRIPT   | -2  |
+| GREEN       | -1  |
+| REGULAR     | 0   |
+| EXPERIENCED | 1   |
+| VETERAN     | 2   |
+| ELITE       | 3   |
+| RAINBOW     | 4   |
 
 The modifier is a generic modifier that applies to various actions throughout the game aside stat required actions, such as morale and generic troop creation.
 
 Generic troops may be rated(TAP) according to their quality, with Regular being 5-5-5. Modifiers applying, an untrained generic would be 2-2-2 and a rainbow generic 9-9-9.
-
-The P1-P4 columns are counters for how many phase actions a unit may take in each phase of a turn. This ranges anywhere from 1 action per turn, up to 8, with up to 1-2 actions each phase if qualified.
 
 ### Descriptions and Examples
 
@@ -78,25 +92,45 @@ Elite troops are those equivalent with military Special Operations Forces and na
 
 Rainbow troops are those who are the cherry picked best of the best, from the best of the best. There is no better. Delta, DEVGRU, Tom Clancy level units, etc.
 
+---
+
 ## Unit Activation
 
 ### Activation
 
 Units are activated via chit pull.
 
-/// Perhaps a system of activation point pooling similar to NEIS?
+## Movement
 
-Max pool is equivalent to unit skill level.
+A unit may move up to three hexes while standing, free to turn to any hex within it's 180 degree vision arc. Crouched movement will allow for two hexes per turn, and one hex for prone movement. A change in stance counts as one movement.
 
-### Movement
+A unit may choose to double time and double their speed at the cost of being exhausted for the remainder of current and next turn.
 
-### Hold / Action
+## Action
 
-#### Grenade Activation
+A unit may spend up to three of their action points before, after, or in-between movements, with various penalties or bonuses applying according to movement rate.
 
-Grenades may be used by priming the nade in one phase action, and throwing the nade in another(or don't). Grenades activate after a second end of turn. So if a nade is primed in Turn 1, turn one will end and it will flip to indicate it will detonate at the end of next turn. At the end of Turn 2, it would detonate.
+Each weapon maybe be fired once per action point, with or without aiming without penalty. Bursts and Automatic fire will depend on the ROF of the weapon by type. Units who choose automatic fire for one AP is firing a Burst. Two or more is considered Full Auto. Any unit who fires in Full Auto must make an ammo check at turn end. Ammo checks are made against the ROF of the weapon, and a critical failure will result in a weapon jam.
+
+A grenade takes one action point to prime, and one to throw. A grenade will detonate at the end of the turn following the turn it was Primed. If it is primed on Turn 1, it will detonate at the end of Turn 2.
+
+A unit may spend one or two action points for a bonus to aiming, +1 for each. The bonuses go away at the end of the turn.
+
+### Reactive Fire
+
+A unit who has an enemy unit within his Fire Arc, may choose to react to the action of that enemy unit and forfeit his turn for the rest of the turn in doing so with a single snap shot. If the target is hit, wound or no wound, they will be interupted.
+
+### Turn Actions
+
+Some actions require a greater deal of skill and/or time. These are Turn Actions, and a acting unit declares to use them immediately at the start of his turn. If any action points have been spent, they will have to wait until next turn to attempt it.
+
+Turn Actions apply as such things like Reloading, Clearing Jams, Climbing, Picking Locks, Kicking Doors, Setting Explosives, etc. At the end of every turn, Action rolls are made for these against the unit skills, and if pass they succeed in their action and may continue freely on their next turn. If they fail they are not successful and may choose to spend next turn trying again with a +1 bonus or give up.
+
+---
 
 ## Terrain / Cover
+
+---
 
 ## Damage Systems
 
