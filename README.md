@@ -13,7 +13,7 @@
 :: : :     :   : :   : :  :    :: :: :   :   :::
 ```
 
-SHOCK / A Small-Arms Tactical Skirmish System
+SHOCK / A Small-Arms Tactical Skirmish System for Solitaire Play
 
 ---
 
@@ -53,7 +53,9 @@ Units have three stats representing the TAP system:
 - Awareness
 - Prowess
 
-Each stat is on a scale of 1-10, with 10 being the best.
+Each stat is on a scale of 1-9, with 9 being the best.
+
+These stats are randomly generated or point assigned to a unit on creation and abstract intrinsic physical/mental ability of the unit as a man. These abilities do not increase with time or experience, while quality of the unit will.
 
 ### Troop Quality
 
@@ -71,8 +73,6 @@ Troops are generally rated by their overall quality and training level. This is 
 | RAINBOW     | 4   |
 
 The modifier is a generic modifier that applies to various actions throughout the game aside stat required actions, such as morale and generic troop creation.
-
-Generic troops may be rated(TAP) according to their quality, with Regular being 5-5-5. Modifiers applying, an untrained generic would be 2-2-2 and a rainbow generic 9-9-9.
 
 ### Descriptions and Examples
 
@@ -94,13 +94,15 @@ Rainbow troops are those who are the cherry picked best of the best, from the be
 
 ---
 
-## Unit Activation
+## Unit Activation and Actions
 
 ### Activation
 
-Units are activated via chit pull.
+At the start of every turn, 1d10 is rolled to generate the amount of action points available to the player for the turn. A single point may be used to either activate a single unit, or two points may be spent to activate a hex containing two or more units.
 
 ## Movement
+
+- Every unit has 4 movement points to use for movement. If a player wishes to both move and shoot a unit, the shot must be a snap shot and MP is limited to 2MP.
 
 A unit may move up to three hexes while standing, free to turn to any hex within it's 180 degree vision arc. Crouched movement will allow for two hexes per turn, and one hex for prone movement. A change in stance counts as one movement.
 
