@@ -21,17 +21,17 @@ SHOCK / A Small-Arms Tactical Skirmish System for Solitaire Play
 
 ### Turns and Phases
 
-Each game turn is the equivalent of around two seconds of real life action. This turn is split into 3 distinct phases.
+Each game turn is the equivalent of around ten seconds of real life action. The turn is split into three distinct phases.
 
-#### 1. Morale and Snap Shots
+#### 1. Morale and Panic Fire
 
-Morale recovery attempts are made first. After that, figures who have LOS to a known enemy may fire a snap-shot immediately and forgo movement and actions in the remaining phases.
+Morale recovery attempts are made first. After that, units who have LOS to a known enemy within 3 hexes may fire in Panic Fire immediately and forgo movement/actions in the remaining phases. This may also be forced as a result of bad morale, in failure to recover.
 
-Snap Shots have a penalty of -3(?) but may be done before the initiative phase and all happen simultaneously. If the person is in cover it will count as blind fire for -5(?).
+Panic Fire has a penalty of -3(?) but may be done before the initiative phase and all panic simultaneously. If the person is in cover it will count as blind fire for -5(?).
 
 #### 2. Movement and Action
 
-Of the units remaining, who are still able to act, a chit pull activation system is implemented. A unit has three action points and three movement points per turn.
+Able units who have yet to act, will do so in the second phase.
 
 #### 3. Medical and Explosives
 
