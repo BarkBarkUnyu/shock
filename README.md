@@ -23,21 +23,29 @@ SHOCK / A Small-Arms Tactical Skirmish System for Solitaire Play
 
 Each game turn is the equivalent of around ten seconds of real life action. The turn is split into three distinct phases.
 
+At the start of the turn, the player will roll 1d10 to get their allotment of activation points for the round. Activating a single unit will cost 1AP while activating a hex of units will cost 2AP.
+
+1d10 will also be rolled for each side as an initiative roll. Lowest roll wins with ties going to the enemy. The side with the winning initiative can spend AP on one unit or one hex first, each side taking turns with single activations until all units who are able to activate have done so or the player has run out of activation points. The enemy does not use AP and will act until all able units have done so.
+
+
+
 #### 1. Morale and Panic Fire
 
-Morale recovery attempts are made first. After that, units who have LOS to a known enemy within 3 hexes may fire in Panic Fire immediately and forgo movement/actions in the remaining phases. This may also be forced as a result of bad morale, in failure to recover.
+Morale effects are played out first to determine which units are able bodied and which units are not.
+
+After that, units who have LOS to a known enemy within 3 hexes may fire in Panic Fire immediately and forgo movement/actions in the remaining phases. This may also be forced as a result of bad morale, in failure to recover.
 
 Panic Fire has a penalty of -3(?) but may be done before the initiative phase and all panic simultaneously. If the person is in cover it will count as blind fire for -5(?).
 
 #### 2. Movement and Action
 
-Able units who have yet to act, will do so in the second phase.
+Able units who have yet to act, will do so in this the second phase. Movement, shooting, and other time consuming actions will happen here.
 
 #### 3. Medical and Explosives
 
 Once all units have finished their actions, medical checks are made for all units who require them. After that is complete, all explosives set to detonate, will detonate.
 
-Now the turn is complete, and onward to do it all over again mission end as deemed neccessary by the scenario.
+Now the turn is complete, and onward to do it all over again until mission end as deemed neccessary by the scenario or result of ultimate fates.
 
 ## Setup and Initial Movements
 
@@ -55,7 +63,7 @@ Units have three stats representing the TAP system:
 
 Each stat is on a scale of 1-9, with 9 being the best.
 
-These stats are randomly generated or point assigned to a unit on creation and abstract intrinsic physical/mental ability of the unit as a man. These abilities do not increase with time or experience, while quality of the unit will.
+These stats are randomly generated or point assigned to a unit on creation and abstract intrinsic physical/mental ability of the unit as a man. These abilities do not increase with time or experience, however campaign point purchases may be made to do so.
 
 ### Troop Quality
 
@@ -73,6 +81,8 @@ Troops are generally rated by their overall quality and training level. This is 
 | RAINBOW     | 4   |
 
 The modifier is a generic modifier that applies to various actions throughout the game aside stat required actions, such as morale and generic troop creation.
+
+Experience gained through the campaign will eventually increase the unit quality.
 
 ### Descriptions and Examples
 
@@ -98,25 +108,35 @@ Rainbow troops are those who are the cherry picked best of the best, from the be
 
 ### Activation
 
-At the start of every turn, 1d10 is rolled to generate the amount of action points available to the player for the turn. A single point may be used to either activate a single unit, or two points may be spent to activate a hex containing two or more units.
+At the start of every turn, 1d10 is rolled to generate the amount of action points available to the player for the turn. A single point may be used to either activate a single unit, or two points may be spent to activate a hex containing two or more units. Up to five units on foot may stack in a single hex.
 
 ## Movement
 
-- Every unit has 4 movement points to use for movement. If a player wishes to both move and shoot a unit, the shot must be a snap shot and MP is limited to 2MP.
+- Every unit has 4 movement points to use for movement. If a player wishes to both move and shoot a unit, the shot must be a snap shot and MP is reduced by 2.
 
-A unit may move up to three hexes while standing, free to turn to any hex within it's 180 degree vision arc. Crouched movement will allow for two hexes per turn, and one hex for prone movement. A change in stance counts as one movement.
+A crouched unit has 3MP. A prone unit may only move one hex per turn. Moving prone through difficult terrain will exhaust the unit.
 
-A unit may choose to double time and double their speed at the cost of being exhausted for the remainder of current and next turn.
+A unit may choose to double time and add 2MP at the cost of being exhausted for the remainder of current and next turn. Units who are prone may not double time.
+
+Units who are moving get one free stance change. Another change after that costs 1MP.
+
+Units are also free to turn within their frontal 180 degree viewing arc while moving. Turning beyond this costs 1MP.
+
+A unit carrying or dragging another unit is limited to 2MP and may not both shoot and move. Units in this position are always standing.
 
 ## Action
 
-A unit may spend up to three of their action points before, after, or in-between movements, with various penalties or bonuses applying according to movement rate.
+Units who choose to only fire during their turn may choose to either fire two snap shots or a single aimed shot. The stance of the unit will adjust the accuracy of the shot.
 
-Each weapon maybe be fired once per action point, with or without aiming without penalty. Bursts and Automatic fire will depend on the ROF of the weapon by type. Units who choose automatic fire for one AP is firing a Burst. Two or more is considered Full Auto. Any unit who fires in Full Auto must make an ammo check at turn end. Ammo checks are made against the ROF of the weapon, and a critical failure will result in a weapon jam.
+Units who need to turn to fire at a target can only snap shoot. If the unit is only turning and not shooting they may still fire two snap shots, but may not turn in between the shots.
 
-A grenade takes one action point to prime, and one to throw. A grenade will detonate at the end of the turn following the turn it was Primed. If it is primed on Turn 1, it will detonate at the end of Turn 2.
+Each weapon maybe be fired once per shot, with or without aiming. Bursts and Automatic fire will depend on the ROF of the weapon by type. Units who choose automatic fire for one of the fire actions is firing a Burst. A burst can only be fired as a snap shot. Firing the two snap shots in automatic is considered Full Auto. 
 
-A unit may spend one or two action points for a bonus to aiming, +1 for each. The bonuses go away at the end of the turn.
+Deployed automatic weaponry such as an LMG with a bipod may fire automatic aimed shots.
+
+Ammo checks are made against the ROF of the weapon, and a critical failure will result in a weapon jam.
+
+A grenade takes one snap action to prime and one to throw. Grenades detonate at the end of the turn following the turn it is primed in.
 
 ### Reactive Fire
 
@@ -126,7 +146,7 @@ A unit who has an enemy unit within his Fire Arc, may choose to react to the act
 
 Some actions require a greater deal of skill and/or time. These are Turn Actions, and a acting unit declares to use them immediately at the start of his turn. If any action points have been spent, they will have to wait until next turn to attempt it.
 
-Turn Actions apply as such things like Reloading, Clearing Jams, Climbing, Picking Locks, Kicking Doors, Setting Explosives, etc. At the end of every turn, Action rolls are made for these against the unit skills, and if pass they succeed in their action and may continue freely on their next turn. If they fail they are not successful and may choose to spend next turn trying again with a +1 bonus or give up.
+Turn Actions apply as such things like Clearing Jams, Climbing, Picking Locks, Kicking Doors, Setting Explosives, etc. At the end of every turn, Action rolls are made for these against the unit skills, and if pass they succeed in their action and may continue freely on their next turn. If they fail they are not successful and may choose to spend next turn trying again with a +1 bonus or give up.
 
 ---
 
