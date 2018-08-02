@@ -27,15 +27,13 @@ At the start of the turn, the player will roll 1d10 to get their allotment of ac
 
 1d10 will also be rolled for each side as an initiative roll. Lowest roll wins with ties going to the enemy. The side with the winning initiative can spend AP on one unit or one hex first, each side taking turns with single activations until all units who are able to activate have done so or the player has run out of activation points. The enemy does not use AP and will act until all able units have done so.
 
-
-
 #### 1. Morale and Panic Fire
 
 Morale effects are played out first to determine which units are able bodied and which units are not.
 
 After that, units who have LOS to a known enemy within 3 hexes may fire in Panic Fire immediately and forgo movement/actions in the remaining phases. This may also be forced as a result of bad morale, in failure to recover.
 
-Panic Fire has a penalty of -3(?) but may be done before the initiative phase and all panic simultaneously. If the person is in cover it will count as blind fire for -5(?).
+Panic Fire has a penalty of -3(?) but may be done before the initiative phase and all panic fire is done simultaneously. If the person is in cover it will count as blind fire for -5(?).
 
 #### 2. Movement and Action
 
@@ -47,13 +45,13 @@ Once all units have finished their actions, medical checks are made for all unit
 
 Now the turn is complete, and onward to do it all over again until mission end as deemed neccessary by the scenario or result of ultimate fates.
 
-## Setup and Initial Movements
+### Setup and Initial Movements
 
-## The Soldier
+#### The Soldier
 
 The primary unit of combat in *SHOCK* is a man. On most occasions you will play with anywhere from a small team to a squad or more of soldiers. At times you may see a vehicle or two. Primarily however, the system focuses on infantry type combat.
 
-### Unit Stats
+#### Unit Stats
 
 Units have three stats representing the TAP system:
 
@@ -65,20 +63,20 @@ Each stat is on a scale of 1-9, with 9 being the best.
 
 These stats are randomly generated or point assigned to a unit on creation and abstract intrinsic physical/mental ability of the unit as a man. These abilities do not increase with time or experience, however campaign point purchases may be made to do so.
 
-### Troop Quality
+#### Troop Quality
 
 Troops are generally rated by their overall quality and training level. This is broken down into eight different levels with *SHOCK*.
 
 | QUALITY     | MOD |
 | ----------- | --- |
-| UNTRAINED   | -3  |
-| CONSCRIPT   | -2  |
-| GREEN       | -1  |
-| REGULAR     | 0   |
-| EXPERIENCED | 1   |
-| VETERAN     | 2   |
-| ELITE       | 3   |
-| RAINBOW     | 4   |
+| UNTRAINED   |  0  |
+| CONSCRIPT   |  1  |
+| GREEN       |  2  |
+| REGULAR     |  3  |
+| EXPERIENCED |  4  |
+| VETERAN     |  5  |
+| ELITE       |  6  |
+| RAINBOW     |  7  |
 
 The modifier is a generic modifier that applies to various actions throughout the game aside stat required actions, such as morale and generic troop creation.
 
